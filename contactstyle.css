@@ -1,0 +1,114 @@
+body{
+  padding: 10px;
+}
+.image1{
+  margin:0 auto;
+  text-align: center;
+  display:block;
+}
+nav{
+box-shadow:none;
+display:block;
+background-color:#fff;
+margin: auto;
+}
+.nav-wrapper{
+  width:100%;
+  margin:0px auto;
+  padding-top: 0px;
+  padding-bottom: 30px;
+  margin-bottom: 10px;
+  display: inline-block;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Open Sans";
+}
+
+#nav-mobile{
+  display: inherit !important;
+  text-align:center;
+   margin:0 auto;
+}
+#about-class{
+  position: relative;
+  z-index: 2;
+
+}
+#about-class span{
+  display: none;
+}
+#about-class:hover{ z-index: 21;}
+#about-class:hover span{
+  display: block;
+  width: 80px;
+  color: #fff;
+  background: #545454;
+  font-size: 10px;
+  text-decoration:none;
+  position: absolute;
+  border-radius: 5px;
+  left: -18px;
+  top: :0px;
+
+}
+.inside-container{
+  margin: auto;
+  text-align: center;
+  width: 600px;
+}
+
+
+.paragraph{
+  font-size: 20px;
+  font-weight: 100;
+  margin: auto;
+}
+.line{
+  width:  150px;
+  height:0.5px;
+  background-color: #000;
+  margin: auto;
+}
+.footer-copyright{
+  margin: 15px 0px;
+  height: auto;
+  display: flex;
+}
+
+.icons{
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  flex: 1;
+}
+.icon1{
+  color: #636363;
+}
+.icon1:hover{
+  color: #3b589e;
+  font-size: 32px;
+}
+.icon2{
+  color: #636363;
+}
+.icon2:hover{
+  color: #039be5;
+  font-size: 32px;
+}
+.icon3{
+  color: #636363;
+}
+.icon3:hover{
+  color: red;
+  font-size: 32px;
+}
+#conpyright{
+  flex: 1;
+  font-size: 12px;
+  padding: 10px;
+  }
